@@ -9,7 +9,6 @@ const sqlite3_1 = require("sqlite3");
 const uuid_1 = require("uuid");
 const app = (0, express_1.default)();
 const db = new sqlite3_1.Database("../database/database.db");
-console.log(db);
 app.use((0, cors_1.default)());
 app.use(express_1.default.json());
 // Error handling middleware
